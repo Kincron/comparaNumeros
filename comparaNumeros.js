@@ -8,7 +8,7 @@ function verificaNumeros (num1, num2) {
     }
 
     //Também pode ser feito: return (num1 === num2) ? `Os números ${num1} e ${num2} são iguais.` : `Os números ${num1} e ${num2} não são iguais`;
-    //Porém quase o mesmo erro acontece de exibir o NaN, porém, é no final da frase e exibe '.undefined'
+    //Porém quase o mesmo erro acontece de exibir o NaN, porém, o erro é exibido no final da frase e exibe '.undefined'
 }
 
 function verificaSoma (num1, num2) {
